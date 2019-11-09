@@ -18,7 +18,7 @@ unsigned char	reverse_bits(unsigned char octet)
 
 	i = 0;
 	n = (int)octet;
-	while (n)
+	while (num)
 	{
 		s[i] = num % 2 + '0';
 		num /= 2;
